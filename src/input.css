@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    @apply w-[5px];
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-priBG;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-[#808080];
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#757575];
+}
+
+/* outline outline-1 outline-red-400 */
+* {
+    @apply m-0 p-0 box-border;
+}
+body {
+    @apply flex items-center bg-priBG text-priText font-priFont min-h-screen w-full;
+}
+p {
+    @apply text-sm;
+}
+li {
+    @apply list-none;
+}
+a {
+    @apply block no-underline text-sm transition-colors duration-200 ease-out;
+}
+h1 {
+    @apply font-bold text-priBold my-[10px] text-[2.5rem] sm:text-[2.75rem] md:text-[3rem];
+}
+h3 {
+    @apply font-bold text-priBold;
+}
+span {
+    @apply text-priColor;
+}
+input {
+    @apply w-full p-[14px] text-sm bg-[#1e1e1e] outline-none border border-solid border-[#1e1e1e] rounded-[15px] text-priBold transition-colors duration-200 ease-out focus:border-priColor placeholder:text-[#808080];
+}
+button {
+    @apply font-semibold text-sm py-[12px] w-full rounded-[25px] text-[#1e1e1e] bg-priColor border border-solid border-priColor shadow-md cursor-pointer transition-colors duration-200 ease-out hover:bg-[#e29800] hover:border-[#e29800] active:opacity-50;
+}
+
+/* Header */
+header {
+    @apply w-full h-[70px] flex justify-center items-center bg-priBG fixed top-0 left-0 right-0 z-50;
+}
+nav {
+    @apply w-priWidth mx-auto flex items-center gap-x-[50px];
+}
+.nav-logo {
+    @apply flex items-center gap-x-[10px] cursor-pointer;
+}
+.nav-links {
+    @apply hidden;
+    @apply sm:flex sm:items-center sm:gap-x-[50px];
+}
+.nav-links > li > a {
+    @apply text-[#808080] hover:text-priColor;
+}
+.logout {
+    @apply ml-auto cursor-pointer transition-colors duration-200 ease-out hover:text-priColor;
+}
+
+/* Section */
+section {
+    @apply flex flex-col-reverse justify-between w-priWidth mx-auto gap-y-[50px] my-[70px];
+    @apply xl:flex-row xl:items-center xl:mb-0;
+}
+form {
+    @apply flex flex-col;
+    @apply xl:w-[47.5%];
+}
+form > p:nth-of-type(1) {
+    @apply font-semibold;
+}
+form > p:nth-of-type(2) {
+    @apply flex gap-x-[5px];
+}
+form > p:nth-of-type(2) > a {
+    @apply font-semibold text-priColor hover:text-[#e29800];
+}
+.form-inputs {
+    @apply w-priWidth flex flex-col mt-[20px] gap-y-[20px];
+    @apply sm:w-terWidth;
+}
+.form-name,
+.form-buttons {
+    @apply flex gap-x-[15px];
+}
+.portfolio-button {
+    @apply bg-[#1e1e1e] border-[#1e1e1e] text-priBold hover:bg-[#3c3c3c] hover:border-[#3c3c3c];
+}
+.form-img {
+    @apply xl:w-[47.5%];
+}
+.form-img > img {
+    @apply h-auto w-[500px] ml-auto;
+}
+
+/* Home */
+.home {
+    @apply flex flex-col text-center mx-auto;
+}
+.home > p:nth-of-type(1) {
+    @apply font-semibold text-priColor;
+}
+.home > p:nth-of-type(2) {
+    @apply w-secWidth mx-auto;
+}
+.home > .firebase {
+    @apply flex items-center gap-x-[10px] py-[10px] px-[20px] mt-[20px] mx-auto rounded-[25px] shadow-md bg-[#1e1e1e] hover:bg-[#3c3c3c] cursor-pointer transition-colors duration-200 ease-out;
+}
+.home > .firebase > img {
+    @apply size-[25px];
+}
+
+/* Notif */
+.notif {
+    @apply hidden absolute -bottom-[40px] left-1/2 -translate-x-1/2 font-semibold text-sm whitespace-nowrap;
+}
+.notif.success {
+    @apply text-[#53b256];
+}
+.notif.error {
+    @apply text-[#d62633];
+}
