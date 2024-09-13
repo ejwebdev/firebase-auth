@@ -4,8 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                priFont: "'Poppins', 'sans-serif'",
-                secFont: "'Quicksand', system-ui",
+                priFont: "'Poppins', sans-serif",
             },
             colors: {
                 priColor: "#FFC400",
