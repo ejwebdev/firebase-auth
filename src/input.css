@@ -6,15 +6,12 @@
 ::-webkit-scrollbar {
     @apply w-[5px];
 }
-
 ::-webkit-scrollbar-track {
     @apply bg-priBG;
 }
-
 ::-webkit-scrollbar-thumb {
     @apply bg-[#808080];
 }
-
 ::-webkit-scrollbar-thumb:hover {
     @apply bg-[#757575];
 }
