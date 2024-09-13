@@ -60,7 +60,7 @@ if (signupForm) {
 
         if (!isValidPassword(password)) {
             showNotification(
-                "Password: 6+ characters, including a letter and number.",
+                "Password: 6+ char, include a letter and number.",
                 "error"
             );
             return;
@@ -80,7 +80,7 @@ if (signupForm) {
                 email: email,
             });
 
-            showNotification("Signed up successfully", "success");
+            showNotification("Signed Up Successfully", "success");
             signupForm.reset();
         } catch (error) {
             console.error("Sign up error:", error);
@@ -101,7 +101,7 @@ if (loginForm) {
         try {
             await signInWithEmailAndPassword(auth, email, password);
 
-            sessionStorage.setItem("loginSuccess", "Logged in successfully");
+            sessionStorage.setItem("loginSuccess", "Logged In Successfully");
             loginForm.reset();
 
             window.location.href = "main.html";
@@ -145,7 +145,7 @@ if (logoutButton) {
         try {
             await signOut(auth);
 
-            sessionStorage.setItem("logoutSuccess", "Logged out successfully");
+            sessionStorage.setItem("logoutSuccess", "Logged Out Successfully");
             window.location.href = "index.html";
         } catch (error) {
             showNotification(error.message, "error");

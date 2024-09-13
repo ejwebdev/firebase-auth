@@ -1,4 +1,11 @@
 // Event Listener
+const navLogo = document.getElementById("nav-logo");
+if (navLogo) {
+    navLogo.addEventListener("click", function () {
+        window.location.href = "";
+    });
+}
+
 const portfolioButton = document.getElementById("portfolio-button");
 if (portfolioButton) {
     portfolioButton.addEventListener("click", function () {
