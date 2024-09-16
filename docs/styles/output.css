@@ -705,6 +705,7 @@ button {
   background-color: rgb(255 196 0 / var(--tw-bg-opacity));
   padding-top: 12px;
   padding-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
