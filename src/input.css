@@ -45,7 +45,7 @@ input {
     @apply w-full p-[14px] text-sm bg-[#1e1e1e] outline-none border border-solid border-[#1e1e1e] rounded-[15px] text-priBold transition-colors duration-200 ease-out focus:border-priColor placeholder:text-[#808080];
 }
 button {
-    @apply font-semibold font-priFont text-sm py-[12px] w-full rounded-[25px] text-[#1e1e1e] bg-priColor border border-solid border-priColor shadow-md cursor-pointer transition-colors duration-200 ease-out hover:bg-[#e29800] hover:border-[#e29800] active:opacity-90;
+    @apply font-semibold font-priFont text-sm py-[12px] w-full rounded-[25px] text-[#1e1e1e] bg-priColor border border-solid border-priColor shadow-md cursor-pointer transition-colors duration-200 ease-out hover:bg-[#e6b000] hover:border-[#e6b000] active:opacity-90;
 }
 
 /* Header */
@@ -85,7 +85,7 @@ form > p:nth-of-type(2) {
     @apply flex gap-x-[5px];
 }
 form > p:nth-of-type(2) > a {
-    @apply font-semibold text-priColor hover:text-[#e29800];
+    @apply font-semibold text-priColor hover:text-[#e6b000];
 }
 .form-inputs {
     @apply w-priWidth flex flex-col mt-[20px] gap-y-[20px];
@@ -96,7 +96,7 @@ form > p:nth-of-type(2) > a {
     @apply flex gap-x-[15px];
 }
 .portfolio-button {
-    @apply bg-[#1e1e1e] border-[#1e1e1e] text-priBold hover:bg-[#3c3c3c] hover:border-[#3c3c3c];
+    @apply bg-[#1e1e1e] border-[#1e1e1e] text-priBold hover:bg-[#2a2a2a] hover:border-[#2a2a2a];
 }
 .form-img {
     @apply xl:w-[47.5%];
@@ -116,7 +116,7 @@ form > p:nth-of-type(2) > a {
     @apply w-secWidth mx-auto;
 }
 .home > .firebase {
-    @apply flex items-center gap-x-[10px] py-[10px] px-[20px] mt-[20px] mx-auto rounded-[25px] shadow-md bg-[#1e1e1e] hover:bg-[#3c3c3c] cursor-pointer transition-colors duration-200 ease-out;
+    @apply flex items-center gap-x-[10px] py-[10px] px-[20px] mt-[20px] mx-auto rounded-[25px] shadow-md bg-[#1e1e1e] hover:bg-[#2a2a2a] cursor-pointer transition-colors duration-200 ease-out;
 }
 .home > .firebase > img {
     @apply size-[25px];

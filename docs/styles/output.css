@@ -722,13 +722,13 @@ button {
 
 button:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(226 152 0 / var(--tw-border-opacity));
+  border-color: rgb(230 176 0 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(226 152 0 / var(--tw-bg-opacity));
+  background-color: rgb(230 176 0 / var(--tw-bg-opacity));
 }
 
 button:active {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 /* Header */
@@ -859,7 +859,7 @@ form > p:nth-of-type(2) > a {
 
 form > p:nth-of-type(2) > a:hover {
   --tw-text-opacity: 1;
-  color: rgb(226 152 0 / var(--tw-text-opacity));
+  color: rgb(230 176 0 / var(--tw-text-opacity));
 }
 
 .form-inputs {
@@ -894,9 +894,9 @@ form > p:nth-of-type(2) > a:hover {
 
 .portfolio-button:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(60 60 60 / var(--tw-border-opacity));
+  border-color: rgb(42 42 42 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(60 60 60 / var(--tw-bg-opacity));
+  background-color: rgb(42 42 42 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 1200px) {
@@ -960,7 +960,7 @@ form > p:nth-of-type(2) > a:hover {
 
 .home > .firebase:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(60 60 60 / var(--tw-bg-opacity));
+  background-color: rgb(42 42 42 / var(--tw-bg-opacity));
 }
 
 .home > .firebase > img {

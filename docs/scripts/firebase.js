@@ -60,7 +60,7 @@ if (signupForm) {
 
         if (!isValidPassword(password)) {
             showNotification(
-                "Password: 6+ char, include a letter and number.",
+                "Password must be 6+ character, include a letter and number.",
                 "error"
             );
             return;
