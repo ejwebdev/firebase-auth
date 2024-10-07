@@ -89,7 +89,7 @@ form > p:nth-of-type(2) > a {
 }
 .form-inputs {
     @apply w-priWidth flex flex-col mt-[20px] gap-y-[20px];
-    @apply sm:w-terWidth;
+    @apply sm:w-quaWidth;
 }
 .form-name,
 .form-buttons {
