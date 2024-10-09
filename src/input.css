@@ -71,7 +71,7 @@ nav {
 
 /* Section */
 section {
-    @apply flex flex-col-reverse justify-between w-priWidth mx-auto gap-y-[50px] my-[70px];
+    @apply flex flex-col-reverse justify-between w-priWidth mx-auto gap-y-[50px] my-[80px];
     @apply xl:flex-row xl:items-center xl:mb-0;
 }
 form {
